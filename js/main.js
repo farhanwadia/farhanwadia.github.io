@@ -85,7 +85,7 @@ jQuery(document).ready(function($) {
         })
         //...and when the page starts
         updateNavigation();
-        
+		
         /////FUNCTIONS
         function updateNavigation(){
             contentSection.each(function(){
