@@ -5,18 +5,19 @@ jQuery(document).ready(function($) {
 
         $(".Modern-Slider").slick({
             autoplay:true,
-            speed:1000,
+            speed:10000,
             slidesToShow:1,
             slidesToScroll:1,
             pauseOnHover:false,
-            dots:true,
+            dots:false,
             fade: true,
-            pauseOnDotsHover:true,
+            pauseOnDotsHover:false,
             cssEase:'linear',
-           // fade:true,
             draggable:false,
-            prevArrow:'<button class="PrevArrow"></button>',
-            nextArrow:'<button class="NextArrow"></button>', 
+            //prevArrow:'<button class="PrevArrow"></button>',
+            //nextArrow:'<button class="NextArrow"></button>',
+			prevArrow:'',
+            nextArrow:'', 			
           });
 
         $('#nav-toggle').on('click', function (event) {
