@@ -5,14 +5,14 @@ jQuery(document).ready(function($) {
 
         $(".Modern-Slider").slick({
             autoplay:true,
-            speed:10000,
+            speed:20000,
             slidesToShow:1,
             slidesToScroll:1,
             pauseOnHover:false,
             dots:false,
             fade: true,
             pauseOnDotsHover:false,
-            cssEase:'linear',
+            cssEase:'ease-in-out',
             draggable:false,
             //prevArrow:'<button class="PrevArrow"></button>',
             //nextArrow:'<button class="NextArrow"></button>',
