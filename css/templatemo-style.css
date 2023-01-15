@@ -25,7 +25,7 @@ p {
   display: inline-block;
   height: auto;
   left: 50%;
-  text-align: center;
+  text-align: left;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -36,7 +36,7 @@ p {
 .section-heading {
   text-align: left;
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 6px;
 }
 
 .section-heading h1 {
@@ -471,6 +471,14 @@ header {
 /* About Me Style */
 
 #about_me {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 80px;
+}
+
+/* Resume Style */
+
+#resume {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 80px;
@@ -1066,6 +1074,11 @@ header {
   }
 
   #about_me {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  #resume {
     padding-left: 15px;
     padding-right: 15px;
   }
