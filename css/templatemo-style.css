@@ -481,7 +481,7 @@ header {
 #resume {
   padding-left: 60px;
   padding-right: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
 }
 
 /* Featured Style */
@@ -625,25 +625,25 @@ header {
 
 /* Projects Style */
 
-#projects {
+#projects2 {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 50px;
 }
 
-#projects .masonry {
+#projects2 .masonry {
   position: relative;
   width: 100%;
 }
 
-#projects .masonry .item img {
+#projects2 .masonry .item img {
   transition: all 1s;
   width: 100%;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-#projects .masonry .item img:hover {
+#projects2 .masonry .item img:hover {
   opacity: 0.5;
 }
 
@@ -751,13 +751,13 @@ header {
 
 /* Blog Style */
 
-#blog {
+#projects {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 80px;
 }
 
-#blog .tabs {
+#projects .tabs {
   list-style: none;
   margin: 0px;
   padding: 0px;
@@ -767,7 +767,7 @@ header {
   border-bottom: 10px solid #44546a;
 }
 
-#blog .tabs li {
+#projects .tabs li {
   display: inline-block;
   text-align: center;
   width: 25%;
@@ -776,7 +776,7 @@ header {
   padding: 0;
 }
 
-#blog .tabs a {
+#projects .tabs a {
   display: block;
   text-align: center;
   text-decoration: none;
@@ -789,16 +789,16 @@ header {
   transition: 0.5s;
 }
 
-#blog .tabs a:hover {
+#projects .tabs a:hover {
   color: #44546a;
 }
 
 
-#blog .tabs .active:hover {
+#projects .tabs .active:hover {
   color: #fff;
 }
 
-#blog .tabs .active {
+#projects .tabs .active {
   background-color: #44546a;
   color: #fff;
 }
@@ -814,13 +814,13 @@ header {
   clear:both;
 }
 
-#blog .tabgroup ul {
+#projects .tabgroup ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-#blog .tabgroup ul li {
+#projects .tabgroup ul li {
   display: inline-block;
   text-align: left;
   margin-bottom: 10px;
@@ -828,23 +828,23 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
-#blog .tabgroup ul li:last-child {
+#projects .tabgroup ul li:last-child {
   border-bottom: none;
   margin-bottom: 0px;
   padding-bottom: 10px;
 }
 
-#blog .tabgroup ul li img {
+#projects .tabgroup ul li img {
   float: left;
   margin-right: 30px;
   max-width: 100%;
   overflow: hidden;
 }
-#blog .tabgroup ul li .text-content {
+#projects .tabgroup ul li .text-content {
   display: inline;
 }
 
-#blog .item .text-content h4 {
+#projects .item .text-content h4 {
   padding-top: 7.5px;
   margin-top: 0px;
   margin-bottom: 5px;
@@ -854,7 +854,7 @@ header {
   letter-spacing: 0.5px;
 }
 
-#blog .item .text-content span {
+#projects .item .text-content span {
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
@@ -863,7 +863,7 @@ header {
   margin-bottom: 15px;
 }
 
-#blog .item .text-content .accent-button {
+#projects .item .text-content .accent-button {
   margin-top: 25px;
 }
 
@@ -1105,21 +1105,21 @@ header {
     padding-right: 15px;
   }
 
-  #blog {
+  #projects {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  #blog .tabs a {
+  #projects .tabs a {
     font-size: 13px;
   }
 
-  #blog .tabgroup ul li img {
+  #projects .tabgroup ul li img {
     float: none;
     width: 100%;
     margin-bottom: 15px;
   }
-  #blog .tabgroup ul li .text-content {
+  #projects .tabgroup ul li .text-content {
     display: block;
   }
 
